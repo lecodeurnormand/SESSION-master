@@ -1,0 +1,52 @@
+body{
+    background-image: url('/SESSION-master/public/images/fond.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:rgb(255, 255, 255);
+}
+
+a, a:hover{
+    text-decoration: none;
+    color:rgb(219, 178, 178);
+}
+.fond{
+    width: 10em;
+}
+h4,h5{
+    text-align: center ;
+}
+h5{
+    display: block;
+    margin: auto;
+}
+.avatarindex{
+    display: flex;
+}
+.avatarchat{
+    display: inline-block;
+    margin-right: 0.5em;
+}
+p{
+    padding-left: 1em;
+    color:rgb(219, 178, 178);
+}
+.bienvenue{
+    padding: none;
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+    font-size: 1.8em;
+    text-shadow: -1px 0px 4px rgba(150, 150, 150, 0.97);
+}
+.chatroom{
+    width: 50em;
+    height: 20em;
+}
+.pseudo{
+    color:rgb(219, 178, 178);
+}
+.container{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
